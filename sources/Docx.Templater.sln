@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEngine.Docx", "TemplateEngine.Docx\TemplateEngine.Docx.csproj", "{B6320046-B27F-41E7-9AA7-C2EE252C0DA5}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater", "TemplateEngine.Docx\Docx.Templater.csproj", "{B6320046-B27F-41E7-9AA7-C2EE252C0DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEngine.Docx.Tests", "TemplateEngine.Docx.Tests\TemplateEngine.Docx.Tests.csproj", "{F2E9C8DD-6940-40F5-8D74-3DE53F453675}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater.Tests", "TemplateEngine.Docx.Tests\Docx.Templater.Tests.csproj", "{F2E9C8DD-6940-40F5-8D74-3DE53F453675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateEngine.Docx.Example", "TemplateEngine.Docx.Example\TemplateEngine.Docx.Example.csproj", "{6820886F-5146-4113-AB62-BCF893E76435}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater.Example", "TemplateEngine.Docx.Example\Docx.Templater.Example.csproj", "{6820886F-5146-4113-AB62-BCF893E76435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -79,9 +79,9 @@
     <Compile Include="TemplateProcessorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TemplateEngine.Docx\TemplateEngine.Docx.csproj">
+    <ProjectReference Include="..\TemplateEngine.Docx\Docx.Templater.csproj">
       <Project>{b6320046-b27f-41e7-9aa7-c2ee252c0da5}</Project>
-      <Name>TemplateEngine.Docx</Name>
+      <Name>Docx.Templater</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
