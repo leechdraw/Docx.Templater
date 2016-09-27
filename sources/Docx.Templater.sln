@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater", "Docx.Temp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater.Tests", "Docx.Templater.Tests\Docx.Templater.Tests.csproj", "{AAAD9BE9-D2A4-4390-9F00-DF69695155CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docx.Templater.Example", "Docx.Templater.Example\Docx.Templater.Example.csproj", "{43E6425C-E2E7-4EEF-82DD-2FC8277E1415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AAAD9BE9-D2A4-4390-9F00-DF69695155CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAAD9BE9-D2A4-4390-9F00-DF69695155CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAAD9BE9-D2A4-4390-9F00-DF69695155CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E6425C-E2E7-4EEF-82DD-2FC8277E1415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E6425C-E2E7-4EEF-82DD-2FC8277E1415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E6425C-E2E7-4EEF-82DD-2FC8277E1415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E6425C-E2E7-4EEF-82DD-2FC8277E1415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

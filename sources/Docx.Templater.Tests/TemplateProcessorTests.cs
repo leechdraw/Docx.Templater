@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using Docx.Templater.TemplateCustomContent;
+using Docx.Templater.Tests.Properties;
 using FluentAssertions;
 using NUnit.Framework;
-using TemplateEngine.Docx.Tests.Properties;
+
 
 namespace Docx.Templater.Tests
 {
