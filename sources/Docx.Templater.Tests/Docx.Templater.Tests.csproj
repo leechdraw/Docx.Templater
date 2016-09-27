@@ -188,7 +188,7 @@
     <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilled_numbering.xml" />
     <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilled_document.xml" />
     <Content Include="Tesla.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
