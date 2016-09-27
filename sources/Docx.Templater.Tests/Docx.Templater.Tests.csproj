@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAAD9BE9-D2A4-4390-9F00-DF69695155CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Docx.Templater.Tests</RootNamespace>
+    <AssemblyName>Docx.Templater.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions, Version=4.14.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.14.0\lib\net45\FluentAssertions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentAssertions.Core, Version=4.14.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.14.0\lib\net45\FluentAssertions.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Moq, Version=4.5.22.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.5.22\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Moq.AutoMock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.AutoMock.0.4.0.0\lib\net40\Moq.AutoMock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.4.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.4.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContentTest.cs" />
+    <Compile Include="FieldContentTests.cs" />
+    <Compile Include="ListContentTests.cs" />
+    <Compile Include="ListItemContentTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="TableContentTests.cs" />
+    <Compile Include="TemplateProcessorTests.cs" />
+    <Compile Include="TestHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Edison.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Einstein.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\DocumentWithSingleFieldWrongFilled.xml" />
+    <None Include="app.config" />
+    <None Include="Resources\TemplateWithTwoTablesWithListsInside_styles.xml" />
+    <None Include="Resources\TemplateWithTwoTablesWithListsInside_numbering.xml" />
+    <None Include="Resources\TemplateWithTwoTablesWithListsInside_document.xml" />
+    <None Include="Resources\TemplateWithTableInsideList_styles.xml" />
+    <None Include="Resources\TemplateWithTableInsideList_numbering.xml" />
+    <None Include="Resources\TemplateWithTableInsideList_document.xml" />
+    <None Include="Resources\TemplateWithSingleTableWithTwoBlocks.xml" />
+    <None Include="Resources\TemplateWithSingleTableWithMergedVerticallyRows.xml" />
+    <None Include="Resources\TemplateWithSingleTableWithAdjacentRows.xml" />
+    <None Include="Resources\TemplateWithSingleTable.xml" />
+    <None Include="Resources\TemplateWithSingleNestedList_styles.xml" />
+    <None Include="Resources\TemplateWithSingleNestedList_numbering.xml" />
+    <None Include="Resources\TemplateWithSingleNestedList_document.xml" />
+    <None Include="Resources\TemplateWithSingleList_styles.xml" />
+    <None Include="Resources\TemplateWithSingleList_numbering.xml" />
+    <None Include="Resources\TemplateWithSingleList_document.xml" />
+    <None Include="Resources\TemplateWithSingleFieldWithSeveralTextEntries.xml" />
+    <None Include="Resources\TemplateWithSingleField.xml" />
+    <None Include="Resources\TemplateWithNestedListInsideTable_styles.xml" />
+    <None Include="Resources\TemplateWithNestedListInsideTable_numbering.xml" />
+    <None Include="Resources\TemplateWithNestedListInsideTable_document.xml" />
+    <None Include="Resources\TemplateWithFieldInTableHeader.xml" />
+    <None Include="Resources\TemplateWithFieldAndListInsideNestedList_styles.xml" />
+    <None Include="Resources\TemplateWithFieldAndListInsideNestedList_numbering.xml" />
+    <None Include="Resources\TemplateWithFieldAndListInsideNestedList_document.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilled_styles.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilled_numbering.xml" />
+    <None Include="Resources\DocumentWithTwoTablesWithListsInsideFilled_document.xml" />
+    <None Include="Resources\DocumentWithTwoListsInMainDocumentAndInFooter_footer.xml" />
+    <None Include="Resources\DocumentWithTwoListsInMainDocumentAndInFooter_document.xml" />
+    <None Include="Resources\DocumentWithTableInsideListAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithTableInsideListAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithTableInsideListAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithTableInsideList_styles.xml" />
+    <None Include="Resources\DocumentWithTableInsideList_numbering.xml" />
+    <None Include="Resources\DocumentWithTableInsideList_document.xml" />
+    <None Include="Resources\DocumentWithSingleTableWrongFilled.xml" />
+    <None Include="Resources\DocumentWithSingleTableWithTwoBlocksFilledAndRemovedCC.xml" />
+    <None Include="Resources\DocumentWithSingleTableWithTwoBlocksFilled.xml" />
+    <None Include="Resources\DocumentWithSingleTableWithMergedVerticallyRowsFilled.xml" />
+    <None Include="Resources\DocumentWithSingleTableWithAdjacentRowsFilled.xml" />
+    <None Include="Resources\TemplateEmpty.docx" />
+    <None Include="Resources\TemplateEmptyWithFieldsInHeaderAndFooter.docx" />
+    <None Include="Resources\TemplateWithImagesInsideList.docx" />
+    <None Include="Resources\TemplateWithImagesInsideTable.docx" />
+    <None Include="Resources\TemplateWithSingleImage.docx" />
+    <None Include="Resources\TemplateWithTwoListsInMainDocumentAndInFooter.docx" />
+    <Resource Include="Resources\DocumentWithSingleTableFilledWithTwoRowsAndRemovedCC.xml" />
+    <None Include="Resources\DocumentWithSingleTableFilledWithTwoRows.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFilledAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFilledAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFilledAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFIlled_styles.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFIlled_numbering.xml" />
+    <None Include="Resources\DocumentWithSingleNestedListFIlled_document.xml" />
+    <None Include="Resources\DocumentWithSingleListWrongFilled_styles.xml" />
+    <None Include="Resources\DocumentWithSingleListWrongFilled_numbering.xml" />
+    <None Include="Resources\DocumentWithSingleListWrongFilled_document.xml" />
+    <None Include="Resources\DocumentWithSingleListFilledAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithSingleListFilledAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithSingleListFilledAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithSingleListFilled_styles.xml" />
+    <None Include="Resources\DocumentWithSingleListFilled_numbering.xml" />
+    <None Include="Resources\DocumentWithSingleListFilled_document.xml" />
+    <None Include="Resources\DocumentWithSingleImageNotFoundError.xml" />
+    <None Include="Resources\DocumentWithSingleImage_AndRemovedCC.xml" />
+    <None Include="Resources\DocumentWithSingleImage.xml" />
+    <None Include="Resources\DocumentWithSingleFieldWrongFilledWithoutErrorsNotifications.xml" />
+    <None Include="Resources\DocumentWithSingleFieldWithSeveralTextEntriesFilled.xml" />
+    <None Include="Resources\DocumentWithSingleFieldFilledWithLinebreaks.xml" />
+    <None Include="Resources\DocumentWithSingleFieldFilled.xml" />
+    <None Include="Resources\DocumentWithSingleFieldAndRemovedCC.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTableAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTableAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTableAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTable_styles.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTable_numbering.xml" />
+    <None Include="Resources\DocumentWithNestedListInsideTable_document.xml" />
+    <None Include="Resources\DocumentWithImagesInsideTable.xml" />
+    <None Include="Resources\DocumentWithImagesInsideListFilledAndRemovedCC.xml" />
+    <None Include="Resources\DocumentWithFieldInTableHeaderFilled.xml" />
+    <None Include="Resources\DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_header.xml" />
+    <None Include="Resources\DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_footer.xml" />
+    <None Include="Resources\DocumentWithFieldFilledInHeaderAndFooter_header.xml" />
+    <None Include="Resources\DocumentWithFieldFilledInHeaderAndFooter_footer.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_styles.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_numbering.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_document.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilled_styles.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilled_numbering.xml" />
+    <None Include="Resources\DocumentWithFieldAndListInsideNestedListFilled_document.xml" />
+    <Content Include="Tesla.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Docx.Templater\Docx.Templater.csproj">
+      <Project>{b6320046-b27f-41e7-9aa7-c2ee252c0da5}</Project>
+      <Name>Docx.Templater</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

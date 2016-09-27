@@ -1,5 +1,4 @@
-This version of library is created by Alexey Volkov (http://unit6.ru/) on June 2013
-and based on Eric White sample http://msdn.microsoft.com/en-us/magazine/ee532473.aspx
+This version of library is created by Klyapov Vadim (https://leechdraw.me) and based on livrary of Alexey Volkov (http://unit6.ru/) on June 2013 and based on Eric White sample http://msdn.microsoft.com/en-us/magazine/ee532473.aspx
 that is licensed under the terms of the Microsoft Limited Public License as mentioned in Terms of Use http://msdn.microsoft.com/en-us/cc300389.aspx#D
 
 MICROSOFT LIMITED PUBLIC LICENSE

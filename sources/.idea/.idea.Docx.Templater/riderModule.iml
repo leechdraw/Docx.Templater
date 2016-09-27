@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Example" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Docx.Templater" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Docx.Templater.Tests" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Docx.Templater.Tests/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Docx.Templater.Tests/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Docx.Templater/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Docx.Templater/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Example/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Example/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Tests/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx.Tests/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TemplateEngine.Docx/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
