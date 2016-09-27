@@ -157,3 +157,4 @@ $RECYCLE.BIN/
 .DS_Store
 sources/packages/*
 sources/.idea/*
+sources/.idea/

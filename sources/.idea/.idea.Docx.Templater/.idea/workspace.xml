@@ -2,165 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1acc7f-b36e-4b22-b890-d5d0a222ca54" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Docx.Templater.sln.DotSettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Docx.Templater.Example.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Edison.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Einstein.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/InputTemplate.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/Tesla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/app.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Example/packages.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/ContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Docx.Templater.Tests.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Edison.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Einstein.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/FieldContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/ListContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/ListItemContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Properties/Resources.Designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Properties/Resources.resx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilled_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilled_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldAndListInsideNestedListFilled_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_footer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldFilledInHeaderAndFooter_footer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldFilledInHeaderAndFooter_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithFieldInTableHeaderFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithImagesInsideListFilledAndRemovedCC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithImagesInsideTable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTableAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTableAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTableAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTable_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTable_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithNestedListInsideTable_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldAndRemovedCC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldFilledWithLinebreaks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldWithSeveralTextEntriesFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldWrongFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleFieldWrongFilledWithoutErrorsNotifications.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleImage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleImageNotFoundError.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleImage_AndRemovedCC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilledAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilledAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilledAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilled_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilled_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListFilled_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListWrongFilled_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListWrongFilled_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleListWrongFilled_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFIlled_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFIlled_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFIlled_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFilledAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFilledAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleNestedListFilledAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableFilledWithTwoRows.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableFilledWithTwoRowsAndRemovedCC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableWithAdjacentRowsFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableWithMergedVerticallyRowsFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableWithTwoBlocksFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableWithTwoBlocksFilledAndRemovedCC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithSingleTableWrongFilled.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideListAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideListAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideListAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideList_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideList_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTableInsideList_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoListsInMainDocumentAndInFooter_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoListsInMainDocumentAndInFooter_footer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilled_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilled_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/DocumentWithTwoTablesWithListsInsideFilled_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/OutputDocument.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateEmpty.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateEmptyWithFieldsInHeaderAndFooter.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithFieldAndListInsideNestedList_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithFieldAndListInsideNestedList_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithFieldAndListInsideNestedList_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithFieldInTableHeader.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithImagesInsideList.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithImagesInsideTable.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithNestedListInsideTable_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithNestedListInsideTable_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithNestedListInsideTable_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleField.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleFieldWithSeveralTextEntries.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleImage.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleList_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleList_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleList_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleNestedList_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleNestedList_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleNestedList_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleTable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleTableWithAdjacentRows.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleTableWithMergedVerticallyRows.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithSingleTableWithTwoBlocks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTableInsideList_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTableInsideList_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTableInsideList_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTwoListsInMainDocumentAndInFooter.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTwoTablesWithListsInside_document.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTwoTablesWithListsInside_numbering.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Resources/TemplateWithTwoTablesWithListsInside_styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/TableContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/TableRowContentTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/TemplateProcessorTests.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/Tesla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.Tests/packages.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx.sln.DotSettings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/A.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/AttributesExtensions.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/ContentItemNameAttribute.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Docx.Templater.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Errors/ContentControlNotFoundError.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Errors/CustomContentItemError.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Errors/CustomError.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Errors/IError.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/ListItem.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/ListItemRetriever.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/NumberingAccessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/ContentProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/FieldsProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/IProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/ImagesProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/ListProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/ProcessContext.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/ProcessResult.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Processors/TableProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/R.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/Container.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/Content.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/FieldContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/IContentItem.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/ImageContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/ListContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/ListItemContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/TableContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateCustomContent/TableRowContent.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/TemplateProcessor.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/W.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/WordDocumentContainer.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/XElementExtensions.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../TemplateEngine.Docx/packages.config" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Docx.Templater.sln" afterPath="$PROJECT_DIR$/../../Docx.Templater.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../packages/repositories.config" afterPath="$PROJECT_DIR$/../../packages/repositories.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/riderModule.iml" afterPath="$PROJECT_DIR$/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs" afterPath="$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs" />
     </list>
     <ignored path="Docx.Templater.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,7 +23,75 @@
     <favorites_list name="Docx.Templater" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="TemplateProcessorTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/TemplateProcessorTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+              <folding>
+                <marker date="1474956451949" expanded="true" signature="6:273" ph="..." />
+                <marker date="1474956451949" expanded="true" signature="305:61064" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="365:61062" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="461:1568" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="1657:2939" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="3002:3614" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="3738:4736" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="4822:5446" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="5536:6146" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="6269:6896" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="6969:8001" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="8103:9450" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="9526:10116" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="10186:11740" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="11818:12560" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="12638:14011" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="14087:15458" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="15548:16801" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="16885:19014" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="19096:21261" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="21354:23678" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="23773:26045" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="26134:28152" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="28240:30293" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="30395:33657" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="33757:37090" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="37185:39994" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="40087:42946" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="43033:44613" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="44702:46254" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="46334:47448" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="47530:48631" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="48726:49526" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="49614:52389" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="52477:55403" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="55498:56685" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="56804:58031" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="58119:60106" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="60198:60645" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="60702:60849" ph="{...}" />
+                <marker date="1474956451949" expanded="true" signature="60908:61056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyInfo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding>
+                <marker date="1474956867577" expanded="true" signature="6:62" ph="..." />
+                <marker date="1474956867577" expanded="true" signature="64:251" ph="/* ... */" />
+                <marker date="1474956867577" expanded="true" signature="578:788" ph="/* ... */" />
+                <marker date="1474956867577" expanded="true" signature="963:1290" ph="/* ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -192,10 +103,10 @@
         <option value="$PROJECT_DIR$/../../Docx.Templater/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/../../Docx.Templater/AttributesExtensions.cs" />
         <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/Docx.Templater.Tests.xproj" />
-        <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/TableContentTests.cs" />
         <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/ContentTest.cs" />
         <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/Docx.Templater.Tests.csproj" />
+        <option value="$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs" />
       </list>
     </option>
   </component>
@@ -232,6 +143,38 @@
     <panes>
       <pane id="SolutionExplorer">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docx.Templater (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docx.Templater.Tests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docx.Templater (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Docx.Templater.Tests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Properties" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
@@ -288,11 +231,12 @@
       <workItem from="1474948433734" duration="90000" />
       <workItem from="1474949150015" duration="1389000" />
       <workItem from="1474954600679" duration="337000" />
+      <workItem from="1474956783247" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1970000" />
+    <option name="totallyTimeSpent" value="2068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,17 +249,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16603774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16603774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32991913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1934" y="377" width="757" height="250" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -342,9 +286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="63" />
-          <folding>
-            <marker date="1474954609354" expanded="true" signature="6:62" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,7 +294,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474954609900" expanded="true" signature="6:46" ph="..." />
+            <marker date="1474956867577" expanded="true" signature="6:62" ph="..." />
+            <marker date="1474956867577" expanded="true" signature="64:251" ph="/* ... */" />
+            <marker date="1474956867577" expanded="true" signature="578:788" ph="/* ... */" />
+            <marker date="1474956867577" expanded="true" signature="963:1290" ph="/* ... */" />
           </folding>
         </state>
       </provider>
@@ -362,7 +306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,10 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <marker date="1474954610466" expanded="true" signature="177:1494" ph="{...}" />
-            <marker date="1474954610466" expanded="true" signature="388:1488" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,13 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474954610817" expanded="true" signature="6:57" ph="..." />
-            <marker date="1474954610817" expanded="true" signature="185:5165" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="257:3101" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="3170:4244" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="4304:5159" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,13 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding>
-            <marker date="1474954610856" expanded="true" signature="177:1575" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="437:678" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="460:486" ph="/* ... */" />
-            <marker date="1474954610856" expanded="true" signature="899:1251" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="1326:1569" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="63" />
-          <folding>
-            <marker date="1474954609354" expanded="true" signature="6:62" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,13 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding>
-            <marker date="1474954610856" expanded="true" signature="177:1575" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="437:678" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="460:486" ph="/* ... */" />
-            <marker date="1474954610856" expanded="true" signature="899:1251" ph="{...}" />
-            <marker date="1474954610856" expanded="true" signature="1326:1569" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,24 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474954609900" expanded="true" signature="6:46" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/TableContentTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <marker date="1474954610466" expanded="true" signature="177:1494" ph="{...}" />
-            <marker date="1474954610466" expanded="true" signature="388:1488" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,13 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1474954610817" expanded="true" signature="6:57" ph="..." />
-            <marker date="1474954610817" expanded="true" signature="185:5165" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="257:3101" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="3170:4244" ph="{...}" />
-            <marker date="1474954610817" expanded="true" signature="4304:5159" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,9 +456,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/TemplateProcessorTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
           <folding>
-            <marker date="1474949113493" expanded="true" signature="48:288" ph="{...}" />
-            <marker date="1474949113493" expanded="true" signature="78:286" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="6:273" ph="..." />
+            <marker date="1474956451949" expanded="true" signature="305:61064" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="365:61062" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="461:1568" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="1657:2939" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="3002:3614" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="3738:4736" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="4822:5446" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="5536:6146" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="6269:6896" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="6969:8001" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="8103:9450" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="9526:10116" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="10186:11740" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="11818:12560" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="12638:14011" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="14087:15458" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="15548:16801" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="16885:19014" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="19096:21261" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="21354:23678" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="23773:26045" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="26134:28152" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="28240:30293" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="30395:33657" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="33757:37090" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="37185:39994" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="40087:42946" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="43033:44613" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="44702:46254" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="46334:47448" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="47530:48631" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="48726:49526" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="49614:52389" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="52477:55403" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="55498:56685" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="56804:58031" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="58119:60106" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="60198:60645" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="60702:60849" ph="{...}" />
+            <marker date="1474956451949" expanded="true" signature="60908:61056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Docx.Templater.Tests/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <marker date="1474956867577" expanded="true" signature="6:62" ph="..." />
+            <marker date="1474956867577" expanded="true" signature="64:251" ph="/* ... */" />
+            <marker date="1474956867577" expanded="true" signature="578:788" ph="/* ... */" />
+            <marker date="1474956867577" expanded="true" signature="963:1290" ph="/* ... */" />
           </folding>
         </state>
       </provider>

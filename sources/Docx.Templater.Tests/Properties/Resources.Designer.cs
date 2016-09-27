@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TemplateEngine.Docx.Tests.Properties {
+namespace Docx.Templater.Tests.Properties {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TemplateEngine.Docx.Tests.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Docx.Templater.Tests.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilled_document {
+        public static string DocumentWithFieldAndListInsideNestedListFilled_document {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilled_document", resourceCulture);
             }
@@ -74,7 +74,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilled_numbering {
+        public static string DocumentWithFieldAndListInsideNestedListFilled_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilled_numbering", resourceCulture);
             }
@@ -84,7 +84,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilled_styles {
+        public static string DocumentWithFieldAndListInsideNestedListFilled_styles {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilled_styles", resourceCulture);
             }
@@ -94,7 +94,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_document {
+        public static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_document", resourceCulture);
             }
@@ -104,7 +104,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_numbering {
+        public static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_numbering", resourceCulture);
             }
@@ -114,7 +114,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_styles {
+        public static string DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithFieldAndListInsideNestedListFilledAndRemovedCC_styles", resourceCulture);
             }
@@ -124,7 +124,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:ftr xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wor [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldFilledInHeaderAndFooter_footer {
+        public static string DocumentWithFieldFilledInHeaderAndFooter_footer {
             get {
                 return ResourceManager.GetString("DocumentWithFieldFilledInHeaderAndFooter_footer", resourceCulture);
             }
@@ -134,7 +134,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:hdr xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wor [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldFilledInHeaderAndFooter_header {
+        public static string DocumentWithFieldFilledInHeaderAndFooter_header {
             get {
                 return ResourceManager.GetString("DocumentWithFieldFilledInHeaderAndFooter_header", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:ftr xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wor [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_footer {
+        public static string DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_footer {
             get {
                 return ResourceManager.GetString("DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_footer", resourceCulture);
             }
@@ -154,7 +154,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:hdr xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wor [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_header {
+        public static string DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_header {
             get {
                 return ResourceManager.GetString("DocumentWithFieldFilledInHeaderAndFooterAndRemovedCC_header", resourceCulture);
             }
@@ -164,7 +164,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithFieldInTableHeaderFilled {
+        public static string DocumentWithFieldInTableHeaderFilled {
             get {
                 return ResourceManager.GetString("DocumentWithFieldInTableHeaderFilled", resourceCulture);
             }
@@ -174,7 +174,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithImagesInsideListFilledAndRemovedCC {
+        public static string DocumentWithImagesInsideListFilledAndRemovedCC {
             get {
                 return ResourceManager.GetString("DocumentWithImagesInsideListFilledAndRemovedCC", resourceCulture);
             }
@@ -184,7 +184,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithImagesInsideTable {
+        public static string DocumentWithImagesInsideTable {
             get {
                 return ResourceManager.GetString("DocumentWithImagesInsideTable", resourceCulture);
             }
@@ -194,7 +194,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTable_document {
+        public static string DocumentWithNestedListInsideTable_document {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTable_document", resourceCulture);
             }
@@ -204,7 +204,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTable_numbering {
+        public static string DocumentWithNestedListInsideTable_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTable_numbering", resourceCulture);
             }
@@ -214,7 +214,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTable_styles {
+        public static string DocumentWithNestedListInsideTable_styles {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTable_styles", resourceCulture);
             }
@@ -224,7 +224,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTableAndRemovedCC_document {
+        public static string DocumentWithNestedListInsideTableAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTableAndRemovedCC_document", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTableAndRemovedCC_numbering {
+        public static string DocumentWithNestedListInsideTableAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTableAndRemovedCC_numbering", resourceCulture);
             }
@@ -244,7 +244,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithNestedListInsideTableAndRemovedCC_styles {
+        public static string DocumentWithNestedListInsideTableAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithNestedListInsideTableAndRemovedCC_styles", resourceCulture);
             }
@@ -253,7 +253,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing&quot; xmlns:wp=&quot;http://schemas.openxml [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldAndRemovedCC {
+        public static string DocumentWithSingleFieldAndRemovedCC {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldAndRemovedCC", resourceCulture);
             }
@@ -262,7 +262,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing&quot; xmlns:wp=&quot;http://schemas.openxml [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldFilled {
+        public static string DocumentWithSingleFieldFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldFilled", resourceCulture);
             }
@@ -272,7 +272,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldFilledWithLinebreaks {
+        public static string DocumentWithSingleFieldFilledWithLinebreaks {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldFilledWithLinebreaks", resourceCulture);
             }
@@ -281,7 +281,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing&quot; xmlns:wp=&quot;http://schemas.openxml [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldWithSeveralTextEntriesFilled {
+        public static string DocumentWithSingleFieldWithSeveralTextEntriesFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldWithSeveralTextEntriesFilled", resourceCulture);
             }
@@ -291,7 +291,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessing [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldWrongFilled {
+        public static string DocumentWithSingleFieldWrongFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldWrongFilled", resourceCulture);
             }
@@ -301,7 +301,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessing [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleFieldWrongFilledWithoutErrorsNotifications {
+        public static string DocumentWithSingleFieldWrongFilledWithoutErrorsNotifications {
             get {
                 return ResourceManager.GetString("DocumentWithSingleFieldWrongFilledWithoutErrorsNotifications", resourceCulture);
             }
@@ -311,7 +311,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleImage {
+        public static string DocumentWithSingleImage {
             get {
                 return ResourceManager.GetString("DocumentWithSingleImage", resourceCulture);
             }
@@ -321,7 +321,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleImage_AndRemovedCC {
+        public static string DocumentWithSingleImage_AndRemovedCC {
             get {
                 return ResourceManager.GetString("DocumentWithSingleImage_AndRemovedCC", resourceCulture);
             }
@@ -331,7 +331,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleImageNotFoundError {
+        public static string DocumentWithSingleImageNotFoundError {
             get {
                 return ResourceManager.GetString("DocumentWithSingleImageNotFoundError", resourceCulture);
             }
@@ -341,7 +341,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilled_document {
+        public static string DocumentWithSingleListFilled_document {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilled_document", resourceCulture);
             }
@@ -351,7 +351,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilled_numbering {
+        public static string DocumentWithSingleListFilled_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilled_numbering", resourceCulture);
             }
@@ -361,7 +361,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilled_styles {
+        public static string DocumentWithSingleListFilled_styles {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilled_styles", resourceCulture);
             }
@@ -371,7 +371,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilledAndRemovedCC_document {
+        public static string DocumentWithSingleListFilledAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilledAndRemovedCC_document", resourceCulture);
             }
@@ -381,7 +381,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilledAndRemovedCC_numbering {
+        public static string DocumentWithSingleListFilledAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilledAndRemovedCC_numbering", resourceCulture);
             }
@@ -391,7 +391,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListFilledAndRemovedCC_styles {
+        public static string DocumentWithSingleListFilledAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListFilledAndRemovedCC_styles", resourceCulture);
             }
@@ -400,7 +400,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing&quot; xmlns:wp=&quot;http://schemas.openxml [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListWrongFilled_document {
+        public static string DocumentWithSingleListWrongFilled_document {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListWrongFilled_document", resourceCulture);
             }
@@ -410,7 +410,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListWrongFilled_numbering {
+        public static string DocumentWithSingleListWrongFilled_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListWrongFilled_numbering", resourceCulture);
             }
@@ -420,7 +420,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleListWrongFilled_styles {
+        public static string DocumentWithSingleListWrongFilled_styles {
             get {
                 return ResourceManager.GetString("DocumentWithSingleListWrongFilled_styles", resourceCulture);
             }
@@ -430,7 +430,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFIlled_document {
+        public static string DocumentWithSingleNestedListFIlled_document {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFIlled_document", resourceCulture);
             }
@@ -440,7 +440,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFIlled_numbering {
+        public static string DocumentWithSingleNestedListFIlled_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFIlled_numbering", resourceCulture);
             }
@@ -450,7 +450,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFIlled_styles {
+        public static string DocumentWithSingleNestedListFIlled_styles {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFIlled_styles", resourceCulture);
             }
@@ -460,7 +460,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFilledAndRemovedCC_document {
+        public static string DocumentWithSingleNestedListFilledAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFilledAndRemovedCC_document", resourceCulture);
             }
@@ -470,7 +470,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFilledAndRemovedCC_numbering {
+        public static string DocumentWithSingleNestedListFilledAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFilledAndRemovedCC_numbering", resourceCulture);
             }
@@ -480,7 +480,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleNestedListFilledAndRemovedCC_styles {
+        public static string DocumentWithSingleNestedListFilledAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithSingleNestedListFilledAndRemovedCC_styles", resourceCulture);
             }
@@ -490,7 +490,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableFilledWithTwoRows {
+        public static string DocumentWithSingleTableFilledWithTwoRows {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableFilledWithTwoRows", resourceCulture);
             }
@@ -500,7 +500,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableFilledWithTwoRowsAndRemovedCC {
+        public static string DocumentWithSingleTableFilledWithTwoRowsAndRemovedCC {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableFilledWithTwoRowsAndRemovedCC", resourceCulture);
             }
@@ -510,7 +510,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableWithAdjacentRowsFilled {
+        public static string DocumentWithSingleTableWithAdjacentRowsFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableWithAdjacentRowsFilled", resourceCulture);
             }
@@ -520,7 +520,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableWithMergedVerticallyRowsFilled {
+        public static string DocumentWithSingleTableWithMergedVerticallyRowsFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableWithMergedVerticallyRowsFilled", resourceCulture);
             }
@@ -530,7 +530,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableWithTwoBlocksFilled {
+        public static string DocumentWithSingleTableWithTwoBlocksFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableWithTwoBlocksFilled", resourceCulture);
             }
@@ -540,7 +540,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableWithTwoBlocksFilledAndRemovedCC {
+        public static string DocumentWithSingleTableWithTwoBlocksFilledAndRemovedCC {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableWithTwoBlocksFilledAndRemovedCC", resourceCulture);
             }
@@ -550,7 +550,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithSingleTableWrongFilled {
+        public static string DocumentWithSingleTableWrongFilled {
             get {
                 return ResourceManager.GetString("DocumentWithSingleTableWrongFilled", resourceCulture);
             }
@@ -560,7 +560,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideList_document {
+        public static string DocumentWithTableInsideList_document {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideList_document", resourceCulture);
             }
@@ -570,7 +570,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideList_numbering {
+        public static string DocumentWithTableInsideList_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideList_numbering", resourceCulture);
             }
@@ -580,7 +580,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideList_styles {
+        public static string DocumentWithTableInsideList_styles {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideList_styles", resourceCulture);
             }
@@ -590,7 +590,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideListAndRemovedCC_document {
+        public static string DocumentWithTableInsideListAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideListAndRemovedCC_document", resourceCulture);
             }
@@ -600,7 +600,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideListAndRemovedCC_numbering {
+        public static string DocumentWithTableInsideListAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideListAndRemovedCC_numbering", resourceCulture);
             }
@@ -610,7 +610,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTableInsideListAndRemovedCC_styles {
+        public static string DocumentWithTableInsideListAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithTableInsideListAndRemovedCC_styles", resourceCulture);
             }
@@ -620,7 +620,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoListsInMainDocumentAndInFooter_document {
+        public static string DocumentWithTwoListsInMainDocumentAndInFooter_document {
             get {
                 return ResourceManager.GetString("DocumentWithTwoListsInMainDocumentAndInFooter_document", resourceCulture);
             }
@@ -630,7 +630,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:ftr xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/2010/wor [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoListsInMainDocumentAndInFooter_footer {
+        public static string DocumentWithTwoListsInMainDocumentAndInFooter_footer {
             get {
                 return ResourceManager.GetString("DocumentWithTwoListsInMainDocumentAndInFooter_footer", resourceCulture);
             }
@@ -640,7 +640,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilled_document {
+        public static string DocumentWithTwoTablesWithListsInsideFilled_document {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilled_document", resourceCulture);
             }
@@ -650,7 +650,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilled_numbering {
+        public static string DocumentWithTwoTablesWithListsInsideFilled_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilled_numbering", resourceCulture);
             }
@@ -660,7 +660,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilled_styles {
+        public static string DocumentWithTwoTablesWithListsInsideFilled_styles {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilled_styles", resourceCulture);
             }
@@ -670,7 +670,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_document {
+        public static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_document {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_document", resourceCulture);
             }
@@ -680,7 +680,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_numbering {
+        public static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_numbering {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_numbering", resourceCulture);
             }
@@ -690,7 +690,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_styles {
+        public static string DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_styles {
             get {
                 return ResourceManager.GetString("DocumentWithTwoTablesWithListsInsideFilledAndRemovedCC_styles", resourceCulture);
             }
@@ -699,7 +699,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateEmpty {
+        public static byte[] TemplateEmpty {
             get {
                 object obj = ResourceManager.GetObject("TemplateEmpty", resourceCulture);
                 return ((byte[])(obj));
@@ -709,7 +709,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateEmptyWithFieldsInHeaderAndFooter {
+        public static byte[] TemplateEmptyWithFieldsInHeaderAndFooter {
             get {
                 object obj = ResourceManager.GetObject("TemplateEmptyWithFieldsInHeaderAndFooter", resourceCulture);
                 return ((byte[])(obj));
@@ -720,7 +720,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithFieldAndListInsideNestedList_document {
+        public static string TemplateWithFieldAndListInsideNestedList_document {
             get {
                 return ResourceManager.GetString("TemplateWithFieldAndListInsideNestedList_document", resourceCulture);
             }
@@ -730,7 +730,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithFieldAndListInsideNestedList_numbering {
+        public static string TemplateWithFieldAndListInsideNestedList_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithFieldAndListInsideNestedList_numbering", resourceCulture);
             }
@@ -740,7 +740,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithFieldAndListInsideNestedList_styles {
+        public static string TemplateWithFieldAndListInsideNestedList_styles {
             get {
                 return ResourceManager.GetString("TemplateWithFieldAndListInsideNestedList_styles", resourceCulture);
             }
@@ -750,7 +750,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithFieldInTableHeader {
+        public static string TemplateWithFieldInTableHeader {
             get {
                 return ResourceManager.GetString("TemplateWithFieldInTableHeader", resourceCulture);
             }
@@ -759,7 +759,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateWithImagesInsideList {
+        public static byte[] TemplateWithImagesInsideList {
             get {
                 object obj = ResourceManager.GetObject("TemplateWithImagesInsideList", resourceCulture);
                 return ((byte[])(obj));
@@ -769,7 +769,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateWithImagesInsideTable {
+        public static byte[] TemplateWithImagesInsideTable {
             get {
                 object obj = ResourceManager.GetObject("TemplateWithImagesInsideTable", resourceCulture);
                 return ((byte[])(obj));
@@ -780,7 +780,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithNestedListInsideTable_document {
+        public static string TemplateWithNestedListInsideTable_document {
             get {
                 return ResourceManager.GetString("TemplateWithNestedListInsideTable_document", resourceCulture);
             }
@@ -790,7 +790,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithNestedListInsideTable_numbering {
+        public static string TemplateWithNestedListInsideTable_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithNestedListInsideTable_numbering", resourceCulture);
             }
@@ -800,7 +800,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithNestedListInsideTable_styles {
+        public static string TemplateWithNestedListInsideTable_styles {
             get {
                 return ResourceManager.GetString("TemplateWithNestedListInsideTable_styles", resourceCulture);
             }
@@ -810,7 +810,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleField {
+        public static string TemplateWithSingleField {
             get {
                 return ResourceManager.GetString("TemplateWithSingleField", resourceCulture);
             }
@@ -820,7 +820,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleFieldWithSeveralTextEntries {
+        public static string TemplateWithSingleFieldWithSeveralTextEntries {
             get {
                 return ResourceManager.GetString("TemplateWithSingleFieldWithSeveralTextEntries", resourceCulture);
             }
@@ -829,7 +829,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateWithSingleImage {
+        public static byte[] TemplateWithSingleImage {
             get {
                 object obj = ResourceManager.GetObject("TemplateWithSingleImage", resourceCulture);
                 return ((byte[])(obj));
@@ -840,7 +840,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleList_document {
+        public static string TemplateWithSingleList_document {
             get {
                 return ResourceManager.GetString("TemplateWithSingleList_document", resourceCulture);
             }
@@ -850,7 +850,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleList_numbering {
+        public static string TemplateWithSingleList_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithSingleList_numbering", resourceCulture);
             }
@@ -860,7 +860,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleList_styles {
+        public static string TemplateWithSingleList_styles {
             get {
                 return ResourceManager.GetString("TemplateWithSingleList_styles", resourceCulture);
             }
@@ -870,7 +870,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleNestedList_document {
+        public static string TemplateWithSingleNestedList_document {
             get {
                 return ResourceManager.GetString("TemplateWithSingleNestedList_document", resourceCulture);
             }
@@ -880,7 +880,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleNestedList_numbering {
+        public static string TemplateWithSingleNestedList_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithSingleNestedList_numbering", resourceCulture);
             }
@@ -890,7 +890,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleNestedList_styles {
+        public static string TemplateWithSingleNestedList_styles {
             get {
                 return ResourceManager.GetString("TemplateWithSingleNestedList_styles", resourceCulture);
             }
@@ -900,7 +900,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleTable {
+        public static string TemplateWithSingleTable {
             get {
                 return ResourceManager.GetString("TemplateWithSingleTable", resourceCulture);
             }
@@ -910,7 +910,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleTableWithAdjacentRows {
+        public static string TemplateWithSingleTableWithAdjacentRows {
             get {
                 return ResourceManager.GetString("TemplateWithSingleTableWithAdjacentRows", resourceCulture);
             }
@@ -920,7 +920,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleTableWithMergedVerticallyRows {
+        public static string TemplateWithSingleTableWithMergedVerticallyRows {
             get {
                 return ResourceManager.GetString("TemplateWithSingleTableWithMergedVerticallyRows", resourceCulture);
             }
@@ -930,7 +930,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithSingleTableWithTwoBlocks {
+        public static string TemplateWithSingleTableWithTwoBlocks {
             get {
                 return ResourceManager.GetString("TemplateWithSingleTableWithTwoBlocks", resourceCulture);
             }
@@ -940,7 +940,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTableInsideList_document {
+        public static string TemplateWithTableInsideList_document {
             get {
                 return ResourceManager.GetString("TemplateWithTableInsideList_document", resourceCulture);
             }
@@ -950,7 +950,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTableInsideList_numbering {
+        public static string TemplateWithTableInsideList_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithTableInsideList_numbering", resourceCulture);
             }
@@ -960,7 +960,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTableInsideList_styles {
+        public static string TemplateWithTableInsideList_styles {
             get {
                 return ResourceManager.GetString("TemplateWithTableInsideList_styles", resourceCulture);
             }
@@ -969,7 +969,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TemplateWithTwoListsInMainDocumentAndInFooter {
+        public static byte[] TemplateWithTwoListsInMainDocumentAndInFooter {
             get {
                 object obj = ResourceManager.GetObject("TemplateWithTwoListsInMainDocumentAndInFooter", resourceCulture);
                 return ((byte[])(obj));
@@ -980,7 +980,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:document xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/201 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTwoTablesWithListsInside_document {
+        public static string TemplateWithTwoTablesWithListsInside_document {
             get {
                 return ResourceManager.GetString("TemplateWithTwoTablesWithListsInside_document", resourceCulture);
             }
@@ -990,7 +990,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:numbering xmlns:wpc=&quot;http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:m=&quot;http://schemas.openxmlformats.org/officeDocument/2006/math&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:wp14=&quot;http://schemas.microsoft.com/office/word/20 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTwoTablesWithListsInside_numbering {
+        public static string TemplateWithTwoTablesWithListsInside_numbering {
             get {
                 return ResourceManager.GetString("TemplateWithTwoTablesWithListsInside_numbering", resourceCulture);
             }
@@ -1000,7 +1000,7 @@ namespace TemplateEngine.Docx.Tests.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
         ///&lt;w:styles xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot; xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationships&quot; xmlns:w=&quot;http://schemas.openxmlformats.org/wordprocessingml/2006/main&quot; xmlns:w14=&quot;http://schemas.microsoft.com/office/word/2010/wordml&quot; xmlns:w15=&quot;http://schemas.microsoft.com/office/word/2012/wordml&quot; mc:Ignorable=&quot;w14 w15&quot;&gt;&lt;w:docDefaults&gt;&lt;w:rPrDefault&gt;&lt;w:rPr&gt;&lt;w:rFonts w:asciiTheme=&quot;minorHAnsi&quot;  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TemplateWithTwoTablesWithListsInside_styles {
+        public static string TemplateWithTwoTablesWithListsInside_styles {
             get {
                 return ResourceManager.GetString("TemplateWithTwoTablesWithListsInside_styles", resourceCulture);
             }
