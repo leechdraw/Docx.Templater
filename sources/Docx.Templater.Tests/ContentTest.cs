@@ -15,7 +15,7 @@ namespace Docx.Templater.Tests
             var firstValuesToFill = new Content(
                 new IContentItem[]{
                 // Add field.
-                new FieldContent("Report date", new DateTime(2000, 01, 01).ToShortDateString()),
+                new FieldContent("Report date", new DateTime(2000, 01, 01).ToString("dd.MM.yyyy")),
                 // Add table.
                 new TableContent("Team Members Table")
                     .AddRow(
@@ -42,7 +42,7 @@ namespace Docx.Templater.Tests
             var secondValuesToFill = new Content(
                 new IContentItem[]{
                 // Add field.
-                new FieldContent("Report date", new DateTime(2000, 01, 01).ToShortDateString()),
+                new FieldContent("Report date", new DateTime(2000, 01, 01).ToString("dd.MM.yyyy")),
                 // Add table.
                 new TableContent("Team Members Table")
                     .AddRow(
@@ -79,7 +79,7 @@ namespace Docx.Templater.Tests
             var firstValuesToFill = new Content(
                 new IContentItem[]{
                 // Add field.
-                new FieldContent("Report date", new DateTime(2000, 01, 01).ToShortDateString()),
+                new FieldContent("Report date", new DateTime(2000, 01, 01).ToString("dd.MM.yyyy")),
                 // Add table.
                 new TableContent("Team Members Table")
                     .AddRow(
@@ -94,7 +94,7 @@ namespace Docx.Templater.Tests
 
             var secondValuesToFill = new Content(
                 // Add field.
-               new []{ new FieldContent("Report date", new DateTime(2000, 01, 01).ToShortDateString())}
+               new[] { new FieldContent("Report date", new DateTime(2000, 01, 01).ToString("dd.MM.yyyy")) }
                 );
 
             //When
@@ -111,7 +111,7 @@ namespace Docx.Templater.Tests
             var firstValuesToFill = new Content(
                 new IContentItem[]{
                 // Add field.
-                new FieldContent("Report date", new DateTime(2000, 01, 01).ToShortDateString()),
+                new FieldContent("Report date", new DateTime(2000, 01, 01).ToString("dd.MM.yyyy")),
                 // Add table.
                 new TableContent("Team Members Table")
                     .AddRow(
