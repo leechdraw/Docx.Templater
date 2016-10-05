@@ -1,4 +1,4 @@
-# Docx.Templater
+# Docx.Templater [![Build status](https://ci.appveyor.com/api/projects/status/in6k3cgm6yof1fpa/branch/master?svg=true)](https://ci.appveyor.com/project/leechdraw/docx-templater/branch/master)
 
 Template engine for generating Word docx documents on the server-side with a human-created Word templates, based on content controls Word feature.
 

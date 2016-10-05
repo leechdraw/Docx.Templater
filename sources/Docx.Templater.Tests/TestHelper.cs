@@ -3,7 +3,7 @@
 	public static class TestHelper
 	{
 		/// <summary>
-		/// Pack object of type T to Array<T> 
+		/// Pack object of type T to Array of T
 		/// </summary>
 		/// <returns>The array.</returns>
 		/// <param name="obj">Object.</param>
