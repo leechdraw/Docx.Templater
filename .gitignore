@@ -7,7 +7,7 @@
 *.sln.docstates
 
 #nuget
-packages/
+sources/packages/
 
 # Build results
 
@@ -98,7 +98,7 @@ publish/
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+packages/
 
 # Windows Azure Build Output
 csx
@@ -158,3 +158,5 @@ $RECYCLE.BIN/
 sources/packages/*
 sources/.idea/*
 sources/.idea/
+sources/.idea.*/
+*.userprefs
