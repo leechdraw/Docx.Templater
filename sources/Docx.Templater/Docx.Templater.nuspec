@@ -4,8 +4,7 @@
         <id>$id$</id>
         <version>$version$</version>
         <title>$title$</title>
-        <authors>$author$</authors>
-        <owners>$author$</owners>
+        <authors>Alexey Volkov, Alexander Elizarov, Vadim Klyapov</authors>
         <licenseUrl>https://www.openhub.net/licenses/mslpl</licenseUrl>
         <projectUrl>https://github.com/leechdraw/Docx.Templater</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
