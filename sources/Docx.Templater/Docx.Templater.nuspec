@@ -13,12 +13,13 @@
         <releaseNotes>First release.</releaseNotes>
         <copyright>Copyright 2016</copyright>
         <tags>Word Docx Template Engine ServerSide</tags>
+        <dependencies>
+            <dependency id="DocumentFormat.OpenXml" version="2.5" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="bin\$configuration$\*.dll" target="lib\net45\" />
+        <file src="bin\$configuration$\*.dll" target="lib\" />
     </files>
-    <dependencies>
-        <dependency id="DocumentFormat.OpenXml" version="2.5" />
-    </dependencies>
+
 
 </package>
