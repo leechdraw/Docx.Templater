@@ -5,4 +5,9 @@ Template engine for generating Word docx documents on the server-side with a hum
 Forked from [UNIT6-open/TemplateEngine.Docx](https://github.com/UNIT6-open/TemplateEngine.Docx).
 Based on [Eric White code sample](http://msdn.microsoft.com/en-us/magazine/ee532473.aspx).
 
+### Installation
+Package on [nuget](https://nuget.org) [Docx.Templater](https://www.nuget.org/packages/Docx.Templater/)
 
+To install Docx.Templater, run the following command in the Package Manager Console
+
+`PM> Install-Package Docx.Templater`
