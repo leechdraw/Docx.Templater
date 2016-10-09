@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<package>
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <licenseUrl>https://www.openhub.net/licenses/mslpl</licenseUrl>
+        <projectUrl>https://github.com/leechdraw/Docx.Templater</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>$description$</description>
+        <releaseNotes>First release.</releaseNotes>
+        <copyright>Copyright 2016</copyright>
+        <tags>Word Docx Template Engine ServerSide</tags>
+    </metadata>
+    <files>
+        <file src="bin\$configuration$\*.dll" target="lib\net45\" />
+    </files>
+    <dependencies>
+        <dependency id="DocumentFormat.OpenXml" version="2.5" />
+    </dependencies>
+
+</package>
