@@ -99,7 +99,7 @@ namespace Docx.Templater.Processors
                 .ToList();
 
             //If there are not content controls with the one of specified field name we need to add the warning
-            if (contentControlTagNames.Intersect(fieldNames).Count() != fieldNames.Count())
+            if (contentControlTagNames.Intersect(fieldNames).Count() != fieldNames.Count)
             {
                 var invalidFileNames = fieldNames
                     .Where(fn => !contentControlTagNames.Contains(fn))
@@ -155,12 +155,12 @@ namespace Docx.Templater.Processors
 
         // Determine the elements that contains the content controls with specified names. This is
         // the prototype for the rows that the code will generate from data.
-        private static List<XElement> GetPrototype(XContainer tableContentControl, IEnumerable<string> fieldNames)
+        private static List<XElement> GetPrototype(XContainer tableContentControl, ICollection<string> fieldNames)
         {
             var rowsWithContentControl = tableContentControl
                 .Descendants(W.Tr)
                 .Where(tr => tr.Descendants(W.Sdt)
-                              .Any(sdt => fieldNames.Contains(sdt.SdtTagName())))
+                .Any(sdt => fieldNames.Count==0 || fieldNames.Contains(sdt.SdtTagName())))
                 .ToList();
 
             return GetIntermediateAndMergedRows(rowsWithContentControl.First(), rowsWithContentControl.Last(),
@@ -215,7 +215,7 @@ namespace Docx.Templater.Processors
                 if (mergeVector.Any(r => r))
                 {
                     var rowCells = tableRow.Descendants(W.Tc).ToArray();
-                    for (var i = 0; i < rowCells.Count(); i++)
+                    for (var i = 0; i < rowCells.Length; i++)
                     {
                         var cell = rowCells[i];
                         var cellFormatting = cell.Element(W.TcPr);
