@@ -9,6 +9,6 @@ namespace Docx.Templater
             Name = name;
         }
 
-        internal string Name { get; private set; }
+        internal string Name { get;  private set; }
     }
 }
